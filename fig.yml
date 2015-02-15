@@ -1,0 +1,5 @@
+runnertechnic:
+  image: beilber/docker-runner-technic:latest
+  volumes:
+   - ./data:/home/gitlab_ci_runner/data
+   - /drop:/drop
