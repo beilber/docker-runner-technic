@@ -1,0 +1,6 @@
+runnertechnic:
+  image: test/docker-runner-technic
+  volumes:
+    - /srv/docker/docker-runner-technic/data:/home/gitlab_ci_runner/data
+  volumes_from:
+    - chlorine_nginxstatic_1
